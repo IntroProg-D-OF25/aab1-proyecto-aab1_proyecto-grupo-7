@@ -1,22 +1,15 @@
 import java.util.Random;
 
-public class simulacionPartido {
+public class simulacionPartido1 {
 
     public static void main(String[] args) {
 
         // Variables
 
         Random random = new Random();
-        int numeroJugadores = 11;
-        int i = 1;
-        String equipoA = "";
-        String equipoB = "";
-        String nombre, posicionJugador;
-        int edad, goles;
-        int golesEquipoA = 0;
-        int golesEquipoAPenales = 0;
-        int golesEquipoB = 0;
-        int golesEquipoBPenales = 0;
+        int numeroJugadores = 11,i = 1;
+        String equipoA = "",equipoB = "",nombre, posicionJugador;
+        int edad, goles,golesEquipoA = 0,golesEquipoAPenales = 0, golesEquipoB = 0, golesEquipoBPenales = 0;
         int numeroRandom, numeroRandomPenales;
         
         // Equipo A listado
